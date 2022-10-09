@@ -1,0 +1,345 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro{
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("https://media.istockphoto.com/photos/chaotic-black-low-poly-surface-abstract-3d-render-picture-id944880340?b=1&k=20&m=944880340&s=170667a&w=0&h=TEeHm7H-f1GBjv9c0Ai6iAx3mHqAPLX_UNtz0-tOUms=");
+
+}
+.descripcio{
+    color: white;
+    text-align: center;
+
+}
+h1{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+   font-size: 400%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 14px 16px;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   margin-left: 30%;
+   margin-right: 30%;
+}
+.barrasuperior{
+    position: fixed;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    font-size: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color:#1c607a ;
+    
+
+}
+.barrasuperior a {
+    flex-wrap: wrap;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: 1 1 ;
+    width: 0;
+  }
+a:hover {
+
+    background-color: rgb(19, 157, 184);
+}
+h5{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h2{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+body{
+    background-image: url("https://media.istockphoto.com/photos/chaotic-black-low-poly-surface-abstract-3d-render-picture-id944880340?b=1&k=20&m=944880340&s=170667a&w=0&h=TEeHm7H-f1GBjv9c0Ai6iAx3mHqAPLX_UNtz0-tOUms=");
+
+}
+.informacio_personal_rob{ 
+    margin-left:20%;
+    margin-right:20%;
+    display: flex;
+    flex-direction: column;
+}
+.robotització_h{
+    color: #ffffff;
+    font-size: 100%;
+    text-decoration:underline;
+    text-align: center;
+    text-shadow: #000000;
+}
+.robotització_cos{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    font-size: 100%;
+    text-align: center;
+}
+.informacio_personal_pro{ 
+    margin-left:20%;
+    margin-right:20%;
+    display: flex;
+    flex-direction: column;
+}
+.programació_h{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    font-size: 100%;
+    text-decoration:underline;
+    text-align: center;
+}
+.programació_cos{
+    color: #ffffff;
+    font-size: 100%;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+    }
+h4{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.about_me_flex{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.about_me_txt{
+    text-align: justify;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.foto_perfil{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 50%;
+}
+.info_perso{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.about_me_flex{
+    color: white;
+}
+.Skills{
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.SoftSkills{
+    margin-left: 30%;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+.fotocerb{
+    padding-left: 45%;
+    padding-right: 40%;
+    height: 10%;
+    width: 10%;
+}
+.titolsoft{
+    text-decoration: underline;
+    padding-left: 30%;
+text-align: center;
+}
+.titolhard{
+    text-decoration: underline;
+    text-align: center;
+    }
+h3{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+@media(max-width:991px){
+*{
+    font-size:small;
+    
+}
+h1{
+    font-size: medium;
+}
+h2{
+    font-size: medium;
+}
+h3{
+    font-size: medium;
+}
+h4{
+    font-size: medium;
+}
+h5{
+    font-size: medium;
+}
+h6{
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+}
+li{
+    text-align: left;
+    padding-left: 40%;
+}
+.projectes{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.viejo {
+
+   color: #ffffff;
+    text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+.imatgeviejo{
+    margin-left: 5% ;
+    width: 100%;
+    color: #000000;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.textviejo{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hviejo{
+    text-align: center;
+    text-decoration: underline;
+}
+.miki {
+    color: #ffffff;
+    text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.imatgemiki{
+    margin-left: 5% ;
+    width: 94%;
+    color: #000000;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.textmiki{
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hmiki{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.formulari{
+    text-align: center;
+    color:#ffffff;
+    display: flex;
+    padding-left: 2%;
+    margin-left:40% ;
+    margin-right:40% ;
+    margin-bottom: 10%;
+}
+h6{
+    border-top:2px solid rgb(19, 157, 184) ;
+    border-bottom:2px solid rgb(19, 157, 184) ;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30%;
+    margin-right: 30%;  
+}
+.footer{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 25%;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+}
+.tuiter{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600%;
+    width: 500%;
+}
+.yutu{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 400%;
+    width: 740%;
+}
+.facebook{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 400%;
+    width: 500%;
+}
+.insta{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 400%;
+    width: 500%;
+}
+
